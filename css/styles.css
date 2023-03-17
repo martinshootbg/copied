@@ -1,5 +1,11 @@
 /* Use this file to use your own styles*/
 
+/*
+font-family: 'Climate Crisis', cursive;
+font-family: 'Rampart One', cursive;
+font-family: 'Titan One', cursive;
+*/
+
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -8,21 +14,36 @@
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: #E0E0FD;
+	
+
+	
+	
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+
+/* Future martin, this is to change the heading fonts */
+h1, h2, h3 {
+	font-family: 'Rampart One', cursive;
+	
+}
+h4,h5 {
+	font-family: 'Titan One', cursive;
+}
+
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #5CD278;
+	Color: Purple;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #98A8BE;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #CDC17A;
 }
 
 /* Styles for lists in the document */
@@ -48,4 +69,7 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+.language-progress{
+	background-color: chartreuse;
 }
